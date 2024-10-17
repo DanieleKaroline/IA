@@ -1,7 +1,7 @@
 import math
-from Search_Heuristics.AlgoritmoBusca import AlgoritmoBusca
-from Search_Heuristics.Constructive.Criteria.CriterioGuloso import CriterioGuloso
-from Search_Heuristics.Solucao import Solucao
+from AlgoritmoBusca import AlgoritmoBusca
+from Constructive.Criteria.CriterioGuloso import CriterioGuloso
+from Solucao import Solucao
 import time
 
 

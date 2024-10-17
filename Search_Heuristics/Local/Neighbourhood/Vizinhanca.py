@@ -1,4 +1,4 @@
-from Search_Heuristics.Solucao import Solucao
+from Solucao import Solucao
 from abc import abstractmethod
 
 

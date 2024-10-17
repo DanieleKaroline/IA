@@ -3,14 +3,14 @@ import statistics
 import time
 import os.path
 
-from Search_Heuristics.Constructive.Criteria.VerticeMaisProximo import VerticeMaisProximo
-from Search_Heuristics.Local.BuscaLocalMelhorMelhora import BuscaLocalMelhorMelhora
-from Search_Heuristics.Local.BuscaLocalPrimeiraMelhora import BuscaLocalPrimeiraMelhora
-from Search_Heuristics.Local.BuscaTabu import BuscaTabu
-from Search_Heuristics.Local.Neighbourhood.SuaVizinhanca import SuaVizinhanca
-from Search_Heuristics.Local.Neighbourhood.Vizinhanca2opt import Vizinhanca2opt
-from Search_Heuristics.Local.Neighbourhood.VizinhancaShift import VizinhancaShift
-from Search_Heuristics.Constructive.BuscaConstrutivaGulosoAlfa import BuscaConstrutivaGulosoAlfa
+from Constructive.Criteria.VerticeMaisProximo import VerticeMaisProximo
+from Local.BuscaLocalMelhorMelhora import BuscaLocalMelhorMelhora
+from Local.BuscaLocalPrimeiraMelhora import BuscaLocalPrimeiraMelhora
+from Local.BuscaTabu import BuscaTabu
+from Local.Neighbourhood.SuaVizinhanca import SuaVizinhanca
+from Local.Neighbourhood.Vizinhanca2opt import Vizinhanca2opt
+from Local.Neighbourhood.VizinhancaShift import VizinhancaShift
+from Constructive.BuscaConstrutivaGulosoAlfa import BuscaConstrutivaGulosoAlfa
 
 
 def ler_arquivo(instancia: str) -> tuple:

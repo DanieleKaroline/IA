@@ -1,5 +1,5 @@
 from heapq import heappush, heappushpop
-from Search_Heuristics.Constructive.Criteria.CriterioGuloso import CriterioGuloso
+from Constructive.Criteria.CriterioGuloso import CriterioGuloso
 import math
 import random
 

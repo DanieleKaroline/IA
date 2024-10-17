@@ -1,5 +1,5 @@
-from Search_Heuristics.Local.Neighbourhood.Vizinhanca import Vizinhanca
-from Search_Heuristics.Solucao import Solucao
+from Local.Neighbourhood.Vizinhanca import Vizinhanca
+from Solucao import Solucao
 import math
 
 
