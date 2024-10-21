@@ -58,7 +58,7 @@ tamanho_total = 29 + 38 + 194 + 734 + 929
 instancias = ("Western Sahara", "Djibouti", "Qatar", "Uruguay", "Zimbabwe")
 solucoes_otimas = (27603, 6656, 9352, 79114, 95345)
 amostras = 10
-tempo_total_maximo = 180  # em minutos
+tempo_total_maximo = 1  # em minutos
 # Mudar para o seu nome ou sobrenome
 autoria = "NomeDiscente"
 
@@ -74,17 +74,17 @@ def main():
             #BuscaConstrutivaGulosoAlfa(VerticeMaisProximo(distancias), solucao_otima, 0.1),
             #BuscaConstrutivaGulosoAlfa(VerticeMaisProximo(distancias), solucao_otima, 0.2),
             #BuscaConstrutivaGulosoAlfa(VerticeMaisProximo(distancias), solucao_otima, 0.3),
-            BuscaLocalMelhorMelhora(Vizinhanca2opt(distancias), solucao_otima),
-            BuscaLocalMelhorMelhora(VizinhancaShift(distancias), solucao_otima),
-            BuscaLocalMelhorMelhora(SuaVizinhanca(distancias), solucao_otima),  # Mudar nome para a Vizinhanca implementada
-            BuscaLocalPrimeiraMelhora(Vizinhanca2opt(distancias), solucao_otima),
-            BuscaLocalPrimeiraMelhora(VizinhancaShift(distancias), solucao_otima),
-            BuscaLocalPrimeiraMelhora(SuaVizinhanca(distancias), solucao_otima),  # Mudar nome para a Vizinhanca implementada
-            BuscaTabu(Vizinhanca2opt(distancias), solucao_otima, 3),
-            BuscaTabu(VizinhancaShift(distancias), solucao_otima, 3),
-            BuscaTabu(SuaVizinhanca(distancias), solucao_otima, 3),  # Mudar nome para a Vizinhanca implementada
-            BuscaTabu(Vizinhanca2opt(distancias), solucao_otima, 5),
-            BuscaTabu(VizinhancaShift(distancias), solucao_otima, 5),
+            #BuscaLocalMelhorMelhora(Vizinhanca2opt(distancias), solucao_otima),
+            #BuscaLocalMelhorMelhora(VizinhancaShift(distancias), solucao_otima),
+            #BuscaLocalMelhorMelhora(SuaVizinhanca(distancias), solucao_otima),  # Mudar nome para a Vizinhanca implementada
+            #BuscaLocalPrimeiraMelhora(Vizinhanca2opt(distancias), solucao_otima),
+            #BuscaLocalPrimeiraMelhora(VizinhancaShift(distancias), solucao_otima),
+            #BuscaLocalPrimeiraMelhora(SuaVizinhanca(distancias), solucao_otima),  # Mudar nome para a Vizinhanca implementada
+            #BuscaTabu(Vizinhanca2opt(distancias), solucao_otima, 3),
+            #BuscaTabu(VizinhancaShift(distancias), solucao_otima, 3),
+            #BuscaTabu(SuaVizinhanca(distancias), solucao_otima, 3),  # Mudar nome para a Vizinhanca implementada
+            #BuscaTabu(Vizinhanca2opt(distancias), solucao_otima, 5),
+            #BuscaTabu(VizinhancaShift(distancias), solucao_otima, 5),
             BuscaTabu(SuaVizinhanca(distancias), solucao_otima, 5),  # Mudar nome para a Vizinhanca implementada
             )
         # tempo limite de execução, em segundos, para a instância específica
