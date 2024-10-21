@@ -84,8 +84,8 @@ def main():
             #BuscaTabu(VizinhancaShift(distancias), solucao_otima, 3),
             #BuscaTabu(SuaVizinhanca(distancias), solucao_otima, 3),  # Mudar nome para a Vizinhanca implementada
             #BuscaTabu(Vizinhanca2opt(distancias), solucao_otima, 5),
-            #BuscaTabu(VizinhancaShift(distancias), solucao_otima, 5),
-            BuscaTabu(SuaVizinhanca(distancias), solucao_otima, 5),  # Mudar nome para a Vizinhanca implementada
+            BuscaTabu(VizinhancaShift(distancias), solucao_otima, 5),
+            #BuscaTabu(SuaVizinhanca(distancias), solucao_otima, 5),  # Mudar nome para a Vizinhanca implementada
             )
         # tempo limite de execução, em segundos, para a instância específica
         tempo_limite = tamanho * tempo_total_maximo * 60 / amostras / tamanho_total / len(algoritmos)

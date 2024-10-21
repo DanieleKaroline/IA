@@ -1,3 +1,11 @@
 instancia,autoria,algoritmo,q-medio,q-desvio,t-medio,% do ótimo
 Western Sahara,NomeDiscente,BLMM2opt,28523.0,0.0,0.0,103.33
 Western Sahara,NomeDiscente,BLMMsh,29711.5,2382.78,0.0,107.64
+Western Sahara,NomeDiscente,BTsh-m5,27605.2,4.73,0.05,100.01
+Djibouti,NomeDiscente,BTsh-m5,9073.6,1.35,0.12,136.32
+Qatar,NomeDiscente,BTsh-m5,23539.5,12914.63,0.61,251.71
+Western Sahara,NomeDiscente,BTsh-m5,29227.3,4.11,0.09,105.88
+Djibouti,NomeDiscente,BTsh-m5,6702.6,4.38,0.12,100.7
+Qatar,NomeDiscente,BTsh-m5,24140.5,12720.11,0.61,258.13
+Uruguay,NomeDiscente,BTsh-m5,1479302.6,86500.38,2.31,1869.84
+Zimbabwe,NomeDiscente,BTsh-m5,2141901.0,97107.74,3.08,2246.47
