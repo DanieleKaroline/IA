@@ -1,11 +1,20 @@
 instancia,autoria,algoritmo,q-medio,q-desvio,t-medio,% do ótimo
-Western Sahara,NomeDiscente,BLMM2opt,28523.0,0.0,0.0,103.33
-Western Sahara,NomeDiscente,BLMMsh,29711.5,2382.78,0.0,107.64
-Western Sahara,NomeDiscente,BTsh-m5,27605.2,4.73,0.05,100.01
-Djibouti,NomeDiscente,BTsh-m5,9073.6,1.35,0.12,136.32
-Qatar,NomeDiscente,BTsh-m5,23539.5,12914.63,0.61,251.71
-Western Sahara,NomeDiscente,BTsh-m5,29227.3,4.11,0.09,105.88
-Djibouti,NomeDiscente,BTsh-m5,6702.6,4.38,0.12,100.7
-Qatar,NomeDiscente,BTsh-m5,24140.5,12720.11,0.61,258.13
-Uruguay,NomeDiscente,BTsh-m5,1479302.6,86500.38,2.31,1869.84
-Zimbabwe,NomeDiscente,BTsh-m5,2141901.0,97107.74,3.08,2246.47
+Western Sahara,NomeDiscente,BLMM2opt,29071.0,0.0,0.0,105.32
+Western Sahara,NomeDiscente,BLMMsh,34971.3,241.28,0.0,126.69
+Western Sahara,NomeDiscente,BLMMnode swap,-328899323.1,227848825.49,2.71,-1191534.7
+Western Sahara,NomeDiscente,BLPM2opt,27603.0,0.0,0.0,100.0
+Western Sahara,NomeDiscente,BLPMsh,28593.0,0.0,0.0,103.59
+Western Sahara,NomeDiscente,BLPMnode swap,-16199668204.0,9241299466.5,2.97,-58688070.88
+Djibouti,NomeDiscente,BLMM2opt,6965.0,0.0,0.01,104.64
+Djibouti,NomeDiscente,BLMMsh,7941.0,0.0,0.0,119.31
+Djibouti,NomeDiscente,BLMMnode swap,-168599771.4,93303614.13,3.56,-2533049.45
+Djibouti,NomeDiscente,BLPM2opt,6656.0,0.0,0.0,100.0
+Djibouti,NomeDiscente,BLPMsh,8377.0,0.0,0.0,125.86
+Djibouti,NomeDiscente,BLPMnode swap,-3814438616.8,2097869544.92,3.86,-57308272.49
+Qatar,NomeDiscente,BLMM2opt,10352.0,0.0,0.22,110.69
+Qatar,NomeDiscente,BLMMsh,14679.9,14.34,0.66,156.97
+Qatar,NomeDiscente,BLMMnode swap,-22168877.8,12254514.82,18.16,-237049.59
+Qatar,NomeDiscente,BLPM2opt,10033.0,0.0,0.16,107.28
+Qatar,NomeDiscente,BLPMsh,13937.0,0.0,0.41,149.03
+Qatar,NomeDiscente,BLPMnode swap,-4925795330.4,2862107039.63,19.61,-52671036.47
+Uruguay,NomeDiscente,BLMM2opt,99521.9,39924.71,15.91,125.8
