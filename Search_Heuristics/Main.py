@@ -58,7 +58,7 @@ tamanho_total = 29 + 38 + 194 + 734 + 929
 instancias = ("Western Sahara", "Djibouti", "Qatar", "Uruguay", "Zimbabwe")
 solucoes_otimas = (27603, 6656, 9352, 79114, 95345)
 amostras = 10
-tempo_total_maximo = 180  # em minutos
+tempo_total_maximo = 0.60  # em minutos
 # Mudar para o seu nome ou sobrenome
 autoria = "NomeDiscente"
 
