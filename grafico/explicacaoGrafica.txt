@@ -1,0 +1,33 @@
+1. Gráfico de Barras: Comparação de Qualidade Média (q-medio) entre Algoritmos e Instâncias
+Esse gráfico de barras compara o desempenho dos diferentes algoritmos em termos da qualidade média (q-medio) para cada instância de problema.
+
+Elementos do Gráfico:
+Eixo X (horizontal): Mostra os algoritmos testados. Cada algoritmo é representado por um conjunto de barras.
+Eixo Y (vertical): Representa a qualidade média (q-medio). Esse valor indica o desempenho médio do algoritmo em relação à qualidade das soluções que ele encontra.
+Cores das Barras: Cada cor representa uma instância de problema diferente. As instâncias são diferentes cenários ou casos de teste nos quais os algoritmos foram avaliados.
+Como interpretar:
+Altura das Barras: Quanto mais alta a barra, maior a qualidade média do algoritmo naquela instância. Uma qualidade média mais alta pode indicar que o algoritmo encontrou soluções melhores em média.
+Comparação entre Algoritmos: Comparar as barras de diferentes algoritmos permite entender qual algoritmo teve um desempenho superior (maior q-medio) para cada instância.
+Comparação entre Instâncias: Se um algoritmo se sai melhor em uma instância específica, a barra correspondente para aquela instância será mais alta. Isso permite ver se um algoritmo tem um desempenho consistente ou se ele varia muito de acordo com a instância.
+Interpretação Prática:
+Se um algoritmo tiver barras consistentemente mais altas, isso pode indicar que ele tem um desempenho melhor em todas as instâncias.
+Se as barras tiverem alturas muito diferentes para diferentes instâncias, isso pode indicar que o algoritmo é mais adequado para certos tipos de problemas, mas não para outros.
+2. Boxplot: Distribuição das Amostras de Qualidade por Algoritmo e Instância
+O boxplot mostra a distribuição das amostras de resultados de qualidade (vários testes ou execuções do algoritmo) para diferentes algoritmos e instâncias. Isso ajuda a visualizar a variação dos resultados e se o desempenho do algoritmo é consistente ou variável.
+
+Elementos do Gráfico:
+Eixo X (horizontal): Mostra os algoritmos. Cada algoritmo tem um conjunto de dados associado.
+Eixo Y (vertical): Representa a qualidade das amostras de cada algoritmo.
+Boxplots: Para cada algoritmo, há uma caixa (boxplot) que representa a distribuição das amostras de qualidade:
+Caixa (Box): Representa o intervalo entre o primeiro e o terceiro quartil dos dados (ou seja, os 50% do meio).
+Linha no meio da caixa: Representa a mediana, ou seja, o valor central dos dados.
+Linhas (Whiskers): Mostram a variação dos dados fora do intervalo interquartil. Elas indicam o alcance dos dados sem considerar os outliers.
+Pontos fora da caixa: São os outliers (valores atípicos), ou seja, execuções com resultados muito diferentes da maioria.
+Como interpretar:
+Altura da Caixa: Se a caixa for curta, indica que o algoritmo tem uma baixa variabilidade de resultados, ou seja, ele é mais consistente. Se a caixa for alta, significa que os resultados variam mais entre as diferentes execuções do algoritmo.
+Mediana: A posição da linha dentro da caixa indica a mediana. Se estiver próxima do topo ou da base da caixa, pode significar uma distribuição assimétrica.
+Outliers: Muitos pontos fora da caixa indicam que o algoritmo às vezes tem desempenhos fora do esperado.
+Interpretação Prática:
+Consistência: Se a caixa de um algoritmo é pequena e concentrada, ele tende a ser mais consistente. Um algoritmo com uma caixa larga tem resultados mais variáveis.
+Outliers: Se houver muitos outliers, pode ser um sinal de que o algoritmo às vezes produz resultados atipicamente bons ou ruins.
+Comparação de Algoritmos: Se um algoritmo tem uma caixa significativamente mais alta que outros, ele provavelmente tem uma qualidade de solução mais alta, mas sua variabilidade também é importante de considerar.
