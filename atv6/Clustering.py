@@ -5,7 +5,7 @@ from sklearn.cluster import SpectralClustering
 # https://scikit-learn.org/stable/modules/clustering.html
 
 # Carregue os dados do arquivo CSV
-data = pd.read_csv('/home/aluno/Área de Trabalho/IA/atv6/MusicasJogosDataset_20232_20242.csv')
+data = pd.read_csv('MusicasJogosDataset_20232_20242.csv')
 # Retira a primeira coluna (nome da pessoa) para realizar o agrupamento
 x = data.iloc[:, 1:]
 
@@ -13,12 +13,11 @@ x = data.iloc[:, 1:]
 modelo_ia_1 = KMeans(n_clusters=3)
 # Crie o modelo usando HDBScan e define parâmetros essenciais (quantidade mínima de elementos para formar um grupo)
 modelo_ia_2 = HDBSCAN(min_cluster_size=4)
+# Crie o modelo usando SpectralClustering e define parâmetros essenciais (número de grupos/clusters)
 modelo_ia_3 = SpectralClustering(n_clusters=2)
 # Treina o modelo
 modelo_ia_1.fit(x)
-
 modelo_ia_2.fit(x)
-
 modelo_ia_3.fit(x)
 # Adicione rótulos aos dados para indicar a qual grupo cada pessoa pertence
 data['Grupo KMeans'] = modelo_ia_1.labels_
